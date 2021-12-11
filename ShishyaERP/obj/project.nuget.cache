@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eqklf3bprnijz0NQWY7AWxVIjuAQaGfV5t3xvXd1yUcz8O59Hib47DD7tVSNRN7u3cZwATUsWHvfjSGB3YD3xA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Piyush\\source\\repos\\ShishyaERP\\ShishyaERP\\ShishyaERP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Piyush\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
