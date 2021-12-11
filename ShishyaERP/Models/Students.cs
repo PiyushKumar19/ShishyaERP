@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ShishyaERP
+namespace ShishyaERP.Models
 {
     public class Students
     {
