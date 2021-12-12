@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "osyYTdMQoJXrfGLo6CcfA8xKU9xpuOxM+WAbuhBc0FGbyPT7u9MrHWdIYodCzZ8aGKlWBibtCvXq3c/Jo9iAYw==",
+  "dgSpecHash": "XzmOG7PSRFWcyBUBCKtpaVoknyl1A5U5rB/Kv5Irqgo9r9kPpueOEmv0dl7ovlzro23I1CT9hy8wKgAOmDscNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Piyush\\source\\repos\\ShishyaERP\\ShishyaERP\\ShishyaERP.csproj",
   "expectedPackageFiles": [
@@ -100,8 +100,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Piyush\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

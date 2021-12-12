@@ -9,6 +9,7 @@ namespace ShishyaERP.Models
 {
     public class Students
     {
+        [Key]
         public int studentId { get; set; }
         public string studentName { get; set; }
         public string fatherName { get; set; }
