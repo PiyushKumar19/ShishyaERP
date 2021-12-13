@@ -1,0 +1,74 @@
+﻿@model ShishyaERP.Models.Students
+
+@{
+    ViewData["Title"] = "EditStudent";
+}
+
+<h1>EditStudent</h1>
+
+<h4>Students</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditStudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="studentId" />
+            <div class="form-group">
+                <label asp-for="studentName" class="control-label"></label>
+                <input asp-for="studentName" class="form-control" />
+                <span asp-validation-for="studentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fatherName" class="control-label"></label>
+                <input asp-for="fatherName" class="form-control" />
+                <span asp-validation-for="fatherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="motherName" class="control-label"></label>
+                <input asp-for="motherName" class="form-control" />
+                <span asp-validation-for="motherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="age" class="control-label"></label>
+                <input asp-for="age" class="form-control" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="gender" class="control-label"></label>
+                <select asp-for="gender" class="form-control"></select>
+                <span asp-validation-for="gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bloodGroup" class="control-label"></label>
+                <select asp-for="bloodGroup" class="form-control"></select>
+                <span asp-validation-for="bloodGroup" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dob" class="control-label"></label>
+                <input asp-for="dob" class="form-control" />
+                <span asp-validation-for="dob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="address" class="control-label"></label>
+                <input asp-for="address" class="form-control" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="city" class="control-label"></label>
+                <input asp-for="city" class="form-control" />
+                <span asp-validation-for="city" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

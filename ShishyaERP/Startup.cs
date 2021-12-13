@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShishyaERP.Models;
+using ShishyaERP.Models.InterfacesAndCRUD;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,7 @@ namespace ShishyaERP
         {
             services.AddDbContextPool<DatabaseContext>(
                 option => option.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+            services.AddTransient<IStudentsCRUD, StudentsCRUD>();
             services.AddControllersWithViews();
         }
 

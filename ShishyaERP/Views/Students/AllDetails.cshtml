@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ShishyaERP.Models.Students>
+
+    <div>
+        <table width="100%">
+            <tr style="background-color:lavender">
+                <th>Student Id</th>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Date Of Birth</th>
+            </tr>
+            @foreach (var d in Model)
+            {
+                <tr>
+                    <td>@d.studentId</td>
+                    @if (@d.studentName != null)
+                    {
+                        <td>@d.studentName</td>
+                    }
+                    <td>@d.age</td>
+                    <td>@d.dob</td>
+                    <td>
+                    <a asp-controller="Students" asp-action="Detail" asp-route-ID="@d.studentId">View</a>
+                    <a asp-controller="Students" asp-action="EditStudent" asp-route-ID="@d.studentId">Edit</a>
+                    <a asp-controller="Students" asp-action="Delete" asp-route-ID="@d.studentId">Delete</a>
+                </tr>
+            }
+        </table>
+        <a asp-action="Index">Back to List</a>
+    </div>
