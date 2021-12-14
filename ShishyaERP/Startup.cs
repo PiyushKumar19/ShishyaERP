@@ -29,6 +29,7 @@ namespace ShishyaERP
             services.AddDbContextPool<DatabaseContext>(
                 option => option.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
             services.AddTransient<IStudentsCRUD, StudentsCRUD>();
+            services.AddTransient<ITeachersCRUD, TeachersCRUD>();
             services.AddControllersWithViews();
         }
 

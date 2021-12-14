@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ShishyaERP.Models.Teachers>
+
+@{
+    ViewData["Title"] = "AllDetails";
+}
+
+<h1>AllDetails</h1>
+
+<p>
+    <a asp-action="CreateTeacher">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.teacherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.teacherAge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.teacherNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.graduatedIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.subject)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.teacherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.teacherAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.teacherNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.graduatedIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.subject)
+            </td>
+            <td>
+                <a asp-action="EditTeacher" asp-route-id="@item.teacherId">Edit</a> |
+                <a asp-action="Detail" asp-route-id="@item.teacherId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.teacherId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

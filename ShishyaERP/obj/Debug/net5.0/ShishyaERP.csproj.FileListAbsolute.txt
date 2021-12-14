@@ -144,7 +144,11 @@ C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\bin\Debug\net5.0\zh-Hant\Micr
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Students\AllDetails.cshtml.g.cs
-C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Students\AllDetail.cshtml.g.cs
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Students\CreateStudent.cshtml.g.cs
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Students\Detail.cshtml.g.cs
 C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Students\EditStudent.cshtml.g.cs
+C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Teachers\Detail.cshtml.g.cs
+C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Teachers\AllDetails.cshtml.g.cs
+C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Teachers\CreateTeacher.cshtml.g.cs
+C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Teachers\Delete.cshtml.g.cs
+C:\Users\Piyush\source\repos\ShishyaERP\ShishyaERP\obj\Debug\net5.0\Razor\Views\Teachers\EditTeacher.cshtml.g.cs

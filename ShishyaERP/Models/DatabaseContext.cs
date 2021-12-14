@@ -9,6 +9,7 @@ namespace ShishyaERP.Models
     public class DatabaseContext : DbContext
     {
         public DbSet<Students> TStudents { get; set; }
+        public DbSet<Teachers> TTeachers { get; set; }
         public DatabaseContext( DbContextOptions options) : base(options)
         {
         }

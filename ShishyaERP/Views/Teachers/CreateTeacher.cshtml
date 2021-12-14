@@ -1,0 +1,73 @@
+﻿@model ShishyaERP.Models.Teachers
+
+@{
+    ViewData["Title"] = "CreateTeacher";
+}
+
+<h1>CreateTeacher</h1>
+
+<h4>Teachers</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateTeacher">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="teacherName" class="control-label"></label>
+                <input asp-for="teacherName" class="form-control" />
+                <span asp-validation-for="teacherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="teacherAge" class="control-label"></label>
+                <input asp-for="teacherAge" class="form-control" />
+                <span asp-validation-for="teacherAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="teacherGender" class="control-label"></label>
+                <select asp-for="teacherGender" class="form-control"></select>
+                <span asp-validation-for="teacherGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bgroup" class="control-label"></label>
+                <select asp-for="bgroup" class="form-control"></select>
+                <span asp-validation-for="bgroup" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="teacherNo" class="control-label"></label>
+                <input asp-for="teacherNo" class="form-control" />
+                <span asp-validation-for="teacherNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="graduatedIn" class="control-label"></label>
+                <input asp-for="graduatedIn" class="form-control" />
+                <span asp-validation-for="graduatedIn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="subject" class="control-label"></label>
+                <input asp-for="subject" class="form-control" />
+                <span asp-validation-for="subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="teacherAddress" class="control-label"></label>
+                <input asp-for="teacherAddress" class="form-control" />
+                <span asp-validation-for="teacherAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="teachCity" class="control-label"></label>
+                <input asp-for="teachCity" class="form-control" />
+                <span asp-validation-for="teachCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
